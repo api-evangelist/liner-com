@@ -1,4 +1,4 @@
-# liner-com
+# Liner
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-liner-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://liner.com/
+Liner is an AI research agent platform that provides accurate search, scholarly assistance, writing tools, and a suite of specialized AI-powered research agents. The service offers APIs and MCP endpoints for integration, pricing plans for professionals, and extensive documentation for developers. Liner emphasizes privacy, safety, and compliance, with clear terms of service and usage policies. The company is headquartered in the United States and focuses on delivering trustworthy AI insights for academic and professional users.
+
+**Areas:** AI · Research · Agent · Platform · Productivity
+
+## Liner on APIs.io
+
+Everything profiled for Liner is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/liner-com/](https://apis.io/providers/liner-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Liner API](https://apis.io/apis/liner-com/liner-com-api/) — Liner API as documented publicly: 21 operations. Contract generated from the documentation by API Evangelist (2026-11-17); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1CreditsBalanceResponse](https://apis.io/schemas/liner-com/liner-com-get-api-v1-credits-balance-response/)
+- [PostApiV1AgentsSearchRequest](https://apis.io/schemas/liner-com/liner-com-post-api-v1-agents-search-request/)
+- [PostApiV1ChatCompletionsRequest](https://apis.io/schemas/liner-com/liner-com-post-api-v1-chat-completions-request/)
+- [PostApiV1RerankResponse](https://apis.io/schemas/liner-com/liner-com-post-api-v1-rerank-response/)
+- [PostApiV1ToolsSearchScholarRequest](https://apis.io/schemas/liner-com/liner-com-post-api-v1-tools-search-scholar-request/)
+- [PostApiV1ToolsSearchScholarResponse](https://apis.io/schemas/liner-com/liner-com-post-api-v1-tools-search-scholar-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Liner Com Context](https://apis.io/jsonld/liner-com/liner-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Liner API Rules](https://apis.io/rules/liner-com/liner-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Liner Authentication](https://apis.io/security/liner-com/liner-com-authentication/)
+- [Liner Domain Security](https://apis.io/security/liner-com/liner-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Liner Plans Pricing](https://apis.io/plans/liner-com/liner-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Liner Rate Limits](https://apis.io/rate-limits/liner-com/liner-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://liner.com/)
+- [Documentation](https://liner.com/developers/docs)
+- [Getting started](https://liner.com/developers/docs/quick-start)
+- [API reference](https://platform.liner.com/keys)
+- [Pricing](https://liner.com/pricing)
+- [Support](https://support.liner.com/hc/en-us)
+- [Blog](https://build.liner.com/blog)
+- [Terms of service](https://liner.com/terms)
+- [Privacy policy](https://liner.com/privacy)
+- [Status](https://status.liner.com/)
+
+## API Evangelist rating
+
+**Kin Score 57.7** — strong · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 55.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.1 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 48.5 |
+
+**Agent readiness 41.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/liner-com/](https://apis.io/providers/liner-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Liner: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/liner-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
